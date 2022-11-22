@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
 
   const changeNavbar = () => {
     if (window.scrollY >= 60 && window.scrollY <= 1080) {
-      setColor(true);
+      setColor(false);
     } else {
       setColor(false);
     }
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
       className={
         color
           ? "z-10 bg-gray fixed w-full py-4 left-0 transition ease-out duration-200"
-          : "z-10 bg-white fixed w-full py-4 left-0 transition ease-out duration-200"
+          : "z-10 shadow-md bg-white fixed w-full py-4 left-0 transition ease-out duration-200"
       }
     >
       <div className="container flex flex-wrap items-center justify-between mx-auto">

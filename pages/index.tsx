@@ -2,7 +2,7 @@ import Head from "next/head";
 import Masthead from "../components/masthead";
 import About from "../components/about";
 import Contacts from "../components/contacts";
-import Image from "next/image";
+import Products from "../components/products";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       {/*nav-menu*/}
       <Masthead />
       <About />
+      <Products />
       <Contacts />
     </div>
   );
