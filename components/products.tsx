@@ -31,7 +31,6 @@ const Products = () => (
             </ProductLeft>
             <ProductRight progress={progress}>
               <div className="">
-                <Image src="/nuts_block.png" layout="fill" alt="Nuts" />
                 <h1 className="absolute uppercase font-bold text-7xl text-red-600">
                   Тестовые картинки!
                 </h1>
@@ -55,14 +54,7 @@ const Products = () => (
               </div>
             </ProductLeft>
             <ProductRight progress={progress}>
-              <div className="">
-                <Image
-                  src="/dried_fruits_block.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="Dried fruits"
-                />
-              </div>
+              <div className=""></div>
             </ProductRight>
           </ProductContainer>
         )}
@@ -74,14 +66,16 @@ const Products = () => (
         renderContent={({ progress }) => (
           <ProductContainer>
             <ProductLeft progress={progress}>
-              <div className="text-center">
-                <ProductLink href="ingredients">Ингридиенты</ProductLink>
+              <div>
+                <ProductLink href="dried">Ингридиенты</ProductLink>
               </div>
-              <div className="font-semibold text-center text-4xl md:text-5xl">
-                Марципан, Миндальная мука, Миндальные лепестки
+              <div className="font-semibold text-4xl md:text-5xl">
+                Марципан, Миндальная мука
               </div>
             </ProductLeft>
-            <ProductRight progress={progress}></ProductRight>
+            <ProductRight progress={progress}>
+              <div className=""></div>
+            </ProductRight>
           </ProductContainer>
         )}
       ></Tile>

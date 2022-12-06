@@ -3,6 +3,7 @@ import Masthead from "../components/masthead";
 import About from "../components/about";
 import Contacts from "../components/contacts";
 import Products from "../components/products";
+import TrustedBy from "../components/trustedby";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Masthead />
       <About />
       <Products />
+      <TrustedBy />
       <Contacts />
     </div>
   );

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { ReactNode } from "react";
+import React from "react";
 
 interface ChildrenProps {
   children?: React.ReactNode;
@@ -13,7 +13,7 @@ export const ProductContainer: React.FC<ChildrenProps> = ({ children }) => (
 
 export const ProductBackground: React.FC = () => (
   <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen top-0 sticky">
-    <div className="bg-gray h-[30vh] lg:h-auto"> </div>
+    <div className="bg-gray mt-5 h-[30vh] lg:h-auto"> </div>
     <div className="bg-white h-[70vh] lg:min-h-screen"> </div>
   </div>
 );
