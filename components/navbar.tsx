@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const links: string[] = ["О компании", "Товары", "Поставщики", "Контакты"];
+const links: string[] = ["Главная", "Товары", "Клиентам", "Контакты"];
 
 const Navbar: React.FC = () => {
   const [color, setColor] = useState(false);

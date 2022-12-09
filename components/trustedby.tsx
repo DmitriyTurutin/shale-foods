@@ -1,5 +1,6 @@
 import React from "react";
 import ClientLogos from "./client-logos";
+import Testimonials from "./testimonials";
 
 const TrustedBy: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ const TrustedBy: React.FC = () => {
           </h3>
         </div>
       </div>
-      <div>Отзывы</div>
+      <Testimonials />
       <div className="flex-1 bg-gray"></div>
     </section>
   );

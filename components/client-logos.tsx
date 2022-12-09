@@ -6,60 +6,103 @@ const ClientLogos: React.FC = () => (
   <>
     <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
       <SliderItem width={150}>
-        <Image
-          src={"/moll_marzipan.png"}
-          width={150}
-          height={50}
-          alt="Moll Marzipan"
-          objectFit="contain"
-        />
+            <Image
+              key={Date.now()}
+              src={"/partners/krasniy_oktyabr.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
       </SliderItem>
       <SliderItem width={150}>
-        <Image
-          src={"/moll_marzipan.png"}
-          width={150}
-          height={50}
-          alt="Moll Marzipan"
-          objectFit="contain"
-        />
+            <Image
+              key={Date.now()}
+              src={"/partners/babaevskiy.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
       </SliderItem>
       <SliderItem width={150}>
-        <Image
-          src={"/moll_marzipan.png"}
-          width={150}
-          height={50}
-          alt="Moll Marzipan"
-          objectFit="contain"
-        />
+            <Image
+              key={Date.now()}
+              src={"/partners/moll_marzipan.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
       </SliderItem>
       <SliderItem width={150}>
-        <Image
-          src={"/moll_marzipan.png"}
-          width={150}
-          height={50}
-          alt="Moll Marzipan"
-          objectFit="contain"
-        />
+            <Image
+              key={Date.now()}
+              src={"/partners/krasniy_oktyabr.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
       </SliderItem>
-
       <SliderItem width={150}>
-        <Image
-          src={"/moll_marzipan.png"}
-          width={150}
-          height={50}
-          alt="Moll Marzipan"
-          objectFit="contain"
-        />
+            <Image
+              key={Date.now()}
+              src={"/partners/babaevskiy.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
       </SliderItem>
-
       <SliderItem width={150}>
-        <Image
-          src={"/moll_marzipan.png"}
-          width={150}
-          height={50}
-          alt="Moll Marzipan"
-          objectFit="contain"
-        />
+            <Image
+              key={Date.now()}
+              src={"/partners/moll_marzipan.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
+      </SliderItem>
+      <SliderItem width={150}>
+            <Image
+              key={Date.now()}
+              src={"/partners/krasniy_oktyabr.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
+      </SliderItem>
+      <SliderItem width={150}>
+            <Image
+              key={Date.now()}
+              src={"/partners/babaevskiy.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
+      </SliderItem>
+      <SliderItem width={150}>
+            <Image
+              key={Date.now()}
+              src={"/partners/moll_marzipan.png"}
+              width='0'
+              height='0'
+              sizes='100vw'
+              alt='image'
+              className="w-full h-auto"
+              />
       </SliderItem>
     </SliderContainer>
   </>

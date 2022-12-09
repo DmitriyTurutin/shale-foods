@@ -46,6 +46,7 @@ const SliderContainer: React.FC<Props> = ({
       <div ref={refContent} className="inline-block">
         {children}
       </div>
+      <div className={enabled ? 'inline-block' : 'hidden'}>{children}</div>
     </div>
   );
 };
@@ -59,6 +60,7 @@ export const SliderItem: React.FC<ItemProps> = ({ children, width }) => (
     className="inline-flex justify-center items-center mx-4"
     style={{ width }}
   >
+    
     {children}
   </div>
 );
