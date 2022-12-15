@@ -30,11 +30,14 @@ const Products = () => (
               </div>
             </ProductLeft>
             <ProductRight progress={progress}>
-              <div className="">
-                <h1 className="absolute uppercase font-bold text-7xl text-red-600">
-                  Тестовые картинки!
-                </h1>
-              </div>
+              <Image
+                src={"/nuts_block.png"}
+                alt="nuts image"
+                width="0"
+                height="0"
+                sizes="100vw"
+                className="w-full h-auto"
+              />
             </ProductRight>
           </ProductContainer>
         )}
@@ -54,7 +57,15 @@ const Products = () => (
               </div>
             </ProductLeft>
             <ProductRight progress={progress}>
-              <div className=""></div>
+              <Image
+                key={Date.now()}
+                src={"/dried_fruits_block.png"}
+                alt="nuts image"
+                width="0"
+                height="0"
+                sizes="100vw"
+                className="w-full h-auto"
+              />
             </ProductRight>
           </ProductContainer>
         )}
@@ -74,7 +85,15 @@ const Products = () => (
               </div>
             </ProductLeft>
             <ProductRight progress={progress}>
-              <div className=""></div>
+              <Image
+                key={Date.now()}
+                src={"/ingredients_block.png"}
+                alt="nuts image"
+                width="0"
+                height="0"
+                sizes="100vw"
+                className="w-full h-auto"
+              />
             </ProductRight>
           </ProductContainer>
         )}
